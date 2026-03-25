@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  background: #fdf8f5;
+  text-align: center;
+  padding: 40px;
+}
+
+.title {
+  font-family: 'Baskerville', serif;
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 4px;
+  color: #1E504B;
+  text-transform: uppercase;
+}
+
+.names {
+  font-family: 'Snell Roundhand', cursive;
+  font-size: 56px;
+  font-weight: bold;
+  color: #781E32;
+  margin: 20px 0;
+}
+
+.subtitle {
+  font-family: 'Snell Roundhand', cursive;
+  font-size: 26px;
+  color: #9B5F6E;
+}
+
+.details {
+  font-family: 'Optima', sans-serif;
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: #41322D;
+  line-height: 1.8;
+}
+
+.highlight {
+  font-family: 'Optima', sans-serif;
+  font-size: 14px;
+  letter-spacing: 2px;
+  color: #9B5F6E;
+  text-transform: uppercase;
+}
+
