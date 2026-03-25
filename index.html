@@ -1,33 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Wedding Invitation</title>
-
   <style>
-    body {
+    html, body {
       margin: 0;
-      background: #f8f5f2;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      min-height: 100vh;
-      font-family: Arial, sans-serif;
+      height: 100%;
+      overflow: hidden;
     }
 
-    iframe {
-      width: 90%;
-      height: 95vh;
-      border: none;
-      box-shadow: 0 10px 30px rgba(0,0,0,0.15);
-      border-radius: 16px;
+    embed {
+      width: 100%;
+      height: 100%;
     }
   </style>
 </head>
 <body>
-
-<iframe src="invite.pdf"></iframe>
-
+  <embed src="invite.pdf" type="application/pdf">
 </body>
 </html>
+
